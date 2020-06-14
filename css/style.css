@@ -173,6 +173,7 @@ h4 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
+  color: var(--white-color);
 }
 .bgcolor {
   background-color: #2f303a;
@@ -212,8 +213,11 @@ h4 {
 .join {
   margin-left: 69px;
   margin-right: 94px;
+  margin-top: 56px;
+  margin-bottom: 56px;
+  color: var(--white-color);
 }
 .subscribe
-.all-footer {
- 
-}
+.white {
+  color: var(--white-color);
+ }
