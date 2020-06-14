@@ -32,6 +32,10 @@
 .just-cont {
   justify-content: space-between;
 }
+
+.around {
+  justify-content: space-evenly;
+}
 .no-mr {
   margin-left: 0;
 }
