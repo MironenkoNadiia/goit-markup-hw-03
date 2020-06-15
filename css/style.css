@@ -211,10 +211,7 @@ h4 {
   padding: 6px 22px;
   border: none;
 }
-.footer-address {
-  display:;
-  align-items:  ;
-}
+
 .join {
   margin-left: 69px;
   margin-right: 94px;
@@ -226,3 +223,16 @@ h4 {
 .white {
   color: white;
  }
+ .nav-center {
+  justify-content: center;
+  
+ }
+
+ .header-margin {
+   margin-bottom: 94px;
+ }
+
+ .m-n {
+   margin-right: 8px;
+ }
+ 
