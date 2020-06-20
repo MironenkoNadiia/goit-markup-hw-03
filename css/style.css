@@ -1,3 +1,7 @@
+html {
+  box-sizing: border-box;
+}
+
 :root {
   --main-color: #757575;
   --secondary-color: #212121;
@@ -5,13 +9,19 @@
   --accent-color: #2196f3;
   --footer-background: #2f303a;
 }
+
+section {
+  outline: 3px dotted blue;
+  margin-bottom: 94px;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1230px;
-  /* outline: dotted violet; */
+  width: 1200px;
+  outline: dotted violet;
   text-align: center;
   margin-bottom: 94px;
 }
@@ -22,7 +32,7 @@
 .flex {
   display: flex;
 }
- 
+
 .center {
   align-items: center;
 }
@@ -107,6 +117,11 @@ ul {
 .black-text {
   color: var(--secondary-color);
   letter-spacing: 0.03em;
+}
+
+.black-item {
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
 }
 .e-mail {
   color: var(--accent-color);
@@ -219,20 +234,20 @@ h4 {
   margin-bottom: 56px;
   color: var(--white-color);
 }
-.subscribe
-.white {
+.subscribe .white {
   color: white;
- }
- .nav-center {
+}
+.nav-center {
   justify-content: center;
-  
- }
+}
 
- .header-margin {
-   margin-bottom: 94px;
- }
+.header-margin {
+  margin-bottom: 94px;
+}
 
- .m-n {
-   margin-right: 8px;
- }
- 
+.m-n {
+  margin-right: 8px;
+}
+.white {
+  color: var(--white-color);
+}
