@@ -25,6 +25,11 @@ section {
   text-align: center;
   margin-bottom: 94px;
 }
+
+.pad {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .no-margin {
   margin-bottom: 0;
 }
